@@ -25,7 +25,7 @@ This project was built during the **"[Hack Your Summer](https://www.hackyoursumm
 - **National Landscape**: The rest of the US displayed a significantly tighter distribution, showing a minimal **$3k to $4k variance** across various remote working statuses.
 
 ### 2. Predictive Power & Feature Selection
-- **The Core Model**: The final ensemble Random Forest Regressor achieved an **R² score of 0.60** and a **Mean Absolute Error (MAE) of ~$24.6k**. This proves that macro features—Job Title, Experience Level, Geography, and Remote Status—account for **60% of the true variance** in tech market salaries.
+- **The Core Model**: The final ensemble Random Forest Regressor achieved an **R² score of 0.60** and a **Mean Absolute Error (MAE) of ~$24.6k**. This proves that macro features (Job Title, Experience Level, Geography, and Remote Status) account for **60% of the true variance** in tech market salaries.
 - **The Noise Penalty Experiment**: An automated feature engineering loop was written to tokenize individual programming languages (e.g., Python, SQL) from job strings. This introduced high collinearity and feature redundancy, dropping the R² score down to **0.51**. This validated that macro job structures hold significantly higher predictive weight than granular tool requirements.
 
 ---
@@ -55,8 +55,9 @@ HYS-Job-Postings-Analysis/
 │   └── bigquery_cleaning_queries.sql    # BigQuery warehouse extraction & cleaning scripts
 │
 └── README.md                            # Project documentation
+```
 
-
+---
 ## Data Sources
 - **Processed Dataset**: The final engineered output containing the model's rounded predictions is located in the `data/` directory.
 - **Original Source**: The raw web-scraped AI & Data job postings dataset can be found on [Kaggle](https://www.kaggle.com/datasets/m0sm71/ai-jobs-dataset-2026).
