@@ -3,7 +3,7 @@
 An end-to-end data pipeline that extracts, cleans, transforms, and analyzes over 9,300 web-scraped tech job postings to uncover regional market trends and predict salary benchmarks using Machine Learning.
 
 ## Project Overview
-This project was built during the **"Hack your Summer"** program. It bridges the gap between cloud data architecture, predictive machine learning modeling, and user-facing business intelligence.
+This project was built during the **"[Hack Your Summer](https://www.hackyoursummer.org)"** program. It bridges the gap between cloud data architecture, predictive machine learning modeling, and user-facing business intelligence.
 
 - **Phase 1 (Data Engineering)**: Cloud Data Warehousing & SQL Architecture in Google BigQuery
 - **Phase 2 (Data Science)**: Advanced Text Parsing, Feature Engineering, & Random Forest Regression in Python
